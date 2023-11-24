@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        /* p {
+            width: 100px;
+            height: 100px;
+            background: orange;
+        } */
+
+
+        /* 親要素のwidthを100px */
+        .parent {
+            width: 100px;
+        }
+
+        /* 初期値でwidthはauto */
+        p {
+            background: orange;
+        }
+        /* 画像の幅を50px */
+        .example img {
+            width: 50px;
+        }
+
+        .grandpa{
+            width: 200px;
+            background: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grandpa">
+        <div class="parent">
+            <p>これは要素です。</p>
+        </div>
+    </div>
+
+
+    <p class="example">
+        <img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔" />
+    </p>
+    <p>これは例文です</p>
+    <div class="parent">
+        <p>これは要素です。</p>
+    </div>
+</body>
+
+</html>
